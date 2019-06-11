@@ -4,9 +4,9 @@
         { "src": "package.json", "use": "@now/static-build" }
     ],
     "routes": [
-      {"src": "^/js/(.*)", "dest": "/js/$1"},
-      {"src": "^/css/(.*)", "dest": "/css/$1"},
-      {"src": "^/img/(.*)", "dest": "/img/$1"},
-      {"src": ".*", "dest": "/index.html"}
+      {"src": "^/js/(.*)", "dest": "/dist/js/$1"},
+      {"src": "^/css/(.*)", "dest": "/dist/css/$1"},
+      {"src": "^/img/(.*)", "dest": "/dist/img/$1"},
+      {"src": ".*", "dest": "/dist/index.html"}
     ]
 }
